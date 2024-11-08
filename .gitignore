@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment and dependency management files
+*.env
+.Python
+
+# macOS system files
+.DS_Store
+
+# Output directories for project data
+data/*.csv
+test_data/*.csv
+
+# Configuration files (API tokens or secrets)
+config.json
+
+# VSCode project settings
+.vscode/
+
+# Linter and code formatter settings
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+.coverage.*
+.cache/
+*.flake8
+pylint.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
